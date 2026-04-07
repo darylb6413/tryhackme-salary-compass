@@ -1,41 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
     --background: 220 20% 10%;
     --foreground: 0 0% 95%;
-
     --card: 220 18% 13%;
     --card-foreground: 0 0% 95%;
-
     --popover: 220 18% 13%;
     --popover-foreground: 0 0% 95%;
-
     --primary: 72 100% 50%;
     --primary-foreground: 220 20% 10%;
-
     --secondary: 220 16% 18%;
     --secondary-foreground: 0 0% 85%;
-
     --muted: 220 14% 16%;
     --muted-foreground: 220 10% 55%;
-
     --accent: 72 100% 50%;
     --accent-foreground: 220 20% 10%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 220 14% 20%;
     --input: 220 14% 20%;
     --ring: 72 100% 50%;
-
     --radius: 0.75rem;
-
     --sidebar-background: 220 18% 13%;
     --sidebar-foreground: 0 0% 95%;
     --sidebar-primary: 72 100% 50%;
@@ -44,7 +33,6 @@
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 220 14% 20%;
     --sidebar-ring: 72 100% 50%;
-
     /* Custom tokens */
     --glow: 72 100% 50%;
     --surface: 220 16% 15%;
@@ -59,7 +47,6 @@
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Inter', system-ui, sans-serif;
@@ -70,21 +57,17 @@
   .glow-border {
     box-shadow: 0 0 20px -5px hsl(var(--glow) / 0.15);
   }
-
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(150 80% 55%));
   }
-
   .animate-fade-up {
     animation: fadeUp 0.5s ease-out forwards;
   }
-
   .animate-fade-up-delay {
     animation: fadeUp 0.5s ease-out 0.15s forwards;
     opacity: 0;
   }
-
   .animate-fade-up-delay-2 {
     animation: fadeUp 0.5s ease-out 0.3s forwards;
     opacity: 0;
