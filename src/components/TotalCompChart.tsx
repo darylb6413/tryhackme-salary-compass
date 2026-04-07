@@ -24,9 +24,9 @@ interface TotalCompChartProps {
 }
 
 const COLORS = {
-  base:   "hsl(var(--primary))",
-  bonus:  "hsl(var(--percentile-mid))",
-  equity: "hsl(var(--percentile-high))",
+  base:   "hsl(var(--primary))",        // THM green-yellow
+  bonus:  "hsl(var(--percentile-low))", // blue
+  equity: "hsl(var(--percentile-high))", // teal-green
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
