@@ -121,7 +121,8 @@ export const roles: Role[] = [
   { id: "am",       title: "Account Manager",   department: "Sales", baseP25: 42000, baseP50: 55000, baseP75: 70000, bonusPctP25: 15, bonusPctP50: 25, bonusPctP75: 38, equityP25: 2000, equityP50: 5000,  equityP75: 10000 },
   { id: "sales-mgr",title: "Sales Manager",     department: "Sales", baseP25: 60000, baseP50: 78000, baseP75: 98000, bonusPctP25: 20, bonusPctP50: 30, bonusPctP75: 45, equityP25: 8000, equityP50: 15000, equityP75: 30000 },
   // People & Operations
-  { id: "recruiter",  title: "Recruiter",           department: "People",      baseP25: 35000, baseP50: 45000, baseP75: 58000, bonusPctP25: 5, bonusPctP50: 8,  bonusPctP75: 12, equityP25: 1000, equityP50: 3000, equityP75: 6000  },
+  { id: "sr-ta",      title: "Senior Talent Acquisition Partner", department: "People", baseP25: 45000, baseP50: 58000, baseP75: 72000, bonusPctP25: 5, bonusPctP50: 8,  bonusPctP75: 12, equityP25: 2000, equityP50: 4000, equityP75: 8000  },
+  { id: "hr-gen",     title: "HR Generalist",        department: "People",      baseP25: 35000, baseP50: 45000, baseP75: 58000, bonusPctP25: 5, bonusPctP50: 7,  bonusPctP75: 10, equityP25: 1000, equityP50: 3000, equityP75: 6000  },
   { id: "people-mgr", title: "People Manager",       department: "People",      baseP25: 52000, baseP50: 65000, baseP75: 82000, bonusPctP25: 8, bonusPctP50: 12, bonusPctP75: 18, equityP25: 4000, equityP50: 8000, equityP75: 15000 },
   { id: "ops-mgr",    title: "Operations Manager",   department: "Operations",  baseP25: 48000, baseP50: 60000, baseP75: 75000, bonusPctP25: 8, bonusPctP50: 10, bonusPctP75: 15, equityP25: 3000, equityP50: 6000, equityP75: 12000 },
   // Finance
