@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        surface: "hsl(var(--surface))",
+        "surface-hover": "hsl(var(--surface-hover))",
+        glow: "hsl(var(--glow))",
+        "percentile-low": "hsl(var(--percentile-low))",
+        "percentile-mid": "hsl(var(--percentile-mid))",
+        "percentile-high": "hsl(var(--percentile-high))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
